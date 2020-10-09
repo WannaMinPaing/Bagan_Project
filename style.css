@@ -16,3 +16,35 @@
 	height: 300px;
 
 }
+
+
+
+
+
+
+/********************************* Shop **********************************/
+
+
+
+.shop_indicators_no span{
+	display: inline-block;
+	width: 23px;
+	height: 25px;
+	border: 1px solid #f5f6fa;
+	border-radius: 50% 50%;
+	text-align: center;
+	cursor: pointer;
+	background-color: #f5f6fa;
+}
+
+
+
+
+
+
+
+
+
+
+
+/******************************** End shop **********************************/
