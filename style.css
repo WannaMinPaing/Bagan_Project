@@ -7,6 +7,10 @@
 	margin-left:0px;
 }
 
+.Index_info{
+	background-color:#FFEBCD;
+}
+
 .Index_footer{
 	background-color:  #fad0c4;
 }
@@ -14,5 +18,30 @@
 .Index_fire_Class{
 	width: 400px;
 	height: 300px;
+}
+
+.Index_middle_img{
+	position:absolute;
+  top: 1300px;
+  left: 80px;
+  font-size: 25px;
+}
+
+.Index_fes_hr{
+	width: 350px;
+	 border-width: 1px;
+	 border-color:black;
+
+}
+.Index_Ess_Img{
+	width: 200px;
+	height: 200px;
+}
+
+.Index_border{
+	border:0.5px solid;
+	border-top: none;
+	border-bottom: none;
+	border-right: none;
 
 }
