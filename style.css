@@ -46,3 +46,15 @@
 	border-right: none;
 
 }
+
+
+.About_text{
+	font-size: 20px;
+	line-height: 30px;
+	color: white;
+
+}
+
+.About_bgc{
+	background-color: #F37335;
+}
