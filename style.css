@@ -1,3 +1,11 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.clear{
+	clear: both;
+}
 
 .Index_logo_image{
 	width:50px;
@@ -46,6 +54,7 @@
 	border-right: none;
 
 }
+<<<<<<< HEAD
 /* YounThiriNaing */
 h1{
     text-align: center;
@@ -164,3 +173,124 @@ div .row{
 	border-color: white;
 }
 
+=======
+
+/*Contact start*/
+section .contactcontainer{
+	position: relative;
+	float: left;
+}
+
+section .contactcontainer .contactinfo{
+	position: absolute;
+	top: 70px;
+	width: 350px;
+	height: 500px;
+	background-image: url(photo/contact.jpg);
+	z-index: 1;
+	padding: 40px;
+	justify-content: space-between;
+	box-shadow: 0 20px 20px rgba(0,0,0,0.2);
+	margin-left: 100px;
+	margin-top: 70px;
+}
+
+section .contactcontainer .contactinfo h2{
+	color: #fff;
+	font-size: 24px;
+	font-weight: 500;
+}
+
+section .contactcontainer .contactinfo .info{
+	position: relative;
+	margin: 20px 0;
+}
+
+section .contactcontainer .contactinfo .info i,
+section .contactcontainer .contactinfo .info span{
+	position: relative;
+	margin: 20px 0;
+	cursor: pointer;
+	max-width: 100%;
+	color: #fff;
+}
+
+section .contactcontainer .contactinfo .social{
+	position: relative;
+	top: 100px;
+}
+
+section .contactcontainer .contactinfo .social i{
+	position: relative;
+	padding-right: 30px;
+	color: #fff;
+}
+
+section .contactForm{
+	position: relative;
+	top: 50px;
+	left: 200px;
+	padding:50px 20px;
+	background-color: #fff;
+	width: 1000px;
+	height: 100%;
+	box-shadow: 0 20px 20px rgba(0,0,0,0.5);
+	margin-bottom: 130px;
+}
+
+section .contactForm h2{
+	color: #0f3959;
+	font-size: 24px;
+	font-weight: 500px;
+	margin: 0 300px 20px;
+}
+
+section .contactForm input,section .contactForm textarea{
+	margin: 0 300px 5px;
+	padding:3px 0;
+	width: 100%;
+	font-size: 18px;
+	color: #333;
+	border:none;
+	border-bottom: 1px solid #777;
+}
+
+section .contactForm input:hover{
+	outline: 0 none;
+}
+
+section .contactForm label{
+	margin: 0 300px 5px;
+	font-size: 18px;
+	color: #333;
+}
+
+section .contactForm button{
+	position: relative;
+	cursor: pointer;
+	background: burlywood;
+	color: #fff;
+	border: none;
+	max-width: 150px;
+	padding:10px 30px;
+	margin: 0 300px 20px;
+	border-radius: 10px;
+}
+
+section .contactForm button:hover{
+	background:coral;
+	transition: 0.01s;
+}
+
+@media (max-width: 1100px){  /*media query*/
+	.contactcontainer{
+		display: none;
+	}
+	.contactForm{
+		width: 20%;
+		height: 100vh;
+		margin-left: -450px;
+	}
+}
+/*Contact end*/
+>>>>>>> 43740e42aa6db42efc2bea5d11751d8fff35d42c
