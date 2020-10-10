@@ -307,5 +307,78 @@ section .contactForm button:hover{
 	}
 }
 /*Contact end*/
+
+
+
+
+/********************************* Shop **********************************/
+
+
+
+.shop_indicators_no span{
+	display: inline-block;
+	width: 23px;
+	height: 25px;
+	border: 1px solid #f5f6fa;
+	border-radius: 50% 50%;
+	text-align: center;
+	cursor: pointer;
+	background-color: #f5f6fa;
+}
+
+
+
+.shop_cart_icon_position{
+	bottom: 9% !important;
+	left: 4% !important;
+	width: 70px;
+}
+
+.shop_cart_icon_position i{
+	width: 75px;
+	height: 70px;
+	/*border: 1px solid #fff;*/
+	/*border-radius: 50% 50%;*/
+	padding: 13px;
+	/*background-color: #fff;*/
+	color: #474747;
+	cursor: pointer;
+}
+
+
+.shop_cart_icon_position span{
+	font-size: 15px;
+}
+
+
+.shop_by_category_row{
+	margin-top: 100px;
+}
+.shop_figure{
+	cursor: pointer;
+}
+.shop_figure img{
+	width: 160px;
+	height: 160px;
+	border: 1px solid #fff;
+	border-radius: 50% 50%;
+}
+
+
+
+
+
+
+/******************************** End shop **********************************/
+
+
+
+
+
+
+
+
+
+
 >>>>>>> 43740e42aa6db42efc2bea5d11751d8fff35d42c
 >>>>>>> 8b10ada8b015731ba250b440f15c63acd7adefe5
