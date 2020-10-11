@@ -246,7 +246,7 @@ section .contactForm{
 	left: 200px;
 	padding:50px 20px;
 	background-color: #fff;
-	width: 1000px;
+	width: 800px;
 	height: 100%;
 	box-shadow: 0 20px 20px rgba(0,0,0,0.5);
 	margin-bottom: 130px;
@@ -254,7 +254,7 @@ section .contactForm{
 
 section .contactForm h2{
 	color: #0f3959;
-	font-size: 24px;
+	font-size: 22px;
 	font-weight: 500px;
 	margin: 0 300px 20px;
 }
